@@ -1,0 +1,14 @@
+# 排除安裝的套件
+node_modules/
+
+# 排除編譯後的檔案
+dist/
+
+# 排除環境變數
+.env
+.env.*
+!.env.example
+
+# 排除系統檔案
+.DS_Store
+Thumbs.db
